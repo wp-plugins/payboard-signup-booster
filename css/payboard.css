@@ -1,0 +1,58 @@
+
+.apikey_settings{
+    width: 454px;
+    margin: 0 auto;
+}
+
+.form_wrapper{
+    padding: 25px 10px 10px 10px;
+    border: 1px #1e8cbe solid;
+}
+
+.apikey_title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px 0px;
+    background: #1e8cbe;
+    color: white;
+}
+
+.payboard_settings_wrapp{
+    padding-top: 65px;
+}
+
+.option-label {
+    font-size:14px;
+    color: black;
+}
+
+.apikey_settings input {
+    padding:5px;
+    font-size:14px;
+}
+
+.option-block {
+    margin-bottom:15px;
+}
+
+#apikey_status_message{
+    float:left;
+    margin-left: 10px;
+    line-height: 24px;
+    display: none;
+}
+
+p.submit{
+    padding-top:0px;
+    margin-top:0px;
+    float:left;
+}
+
+.spinner-container {
+    float:left;
+}
+
+
+
+
