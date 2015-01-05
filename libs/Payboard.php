@@ -134,23 +134,22 @@
         public function outputPayboardJavaScript(){
             $payboardApiKey = get_option('payboard_api_key');
             if($payboardApiKey){ ?>
+                <!-- Begin Payboard Script -->
                 <script type="text/javascript">
-                    var $ = jQuery.noConflict();
-                </script>
-                <script type="text/javascript" src="//d3px1qgagsf6ei.cloudfront.net/Scripts/<?php echo $payboardApiKey; ?>"></script>
-                <script type="text/javascript">
-                    $(function () {
+                    var payboardCallback = function() {
                         Payboard.Events.trackPage();
-                    });
+                    };
+                    var payboardScript = document.createElement("script");
+                    payboardScript.src = '//d3px1qgagsf6ei.cloudfront.net/Scripts/<?php echo $payboardApiKey; ?>';
+                    if (payboardScript.addEventListener) {
+                        payboardScript.addEventListener('load', payboardCallback, false);
+                    } else if (payboardScript.readyState) {
+                        payboardScript.onreadystatechange = payboardCallback;
+                    }
+                    document.body.appendChild(payboardScript);
                 </script>
+                <!-- End Payboard Script -->
      <?php }
-        }
-        
-        
-        
-        
-        public static function includeJavascripts(){
-            wp_enqueue_script( 'jquery' );
         }
  
     }
