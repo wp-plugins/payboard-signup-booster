@@ -12,7 +12,7 @@ Payboard's Intelligent Navigation decreases website bounces, increases engagemen
 
 == Description ==
 
-Payboard's Intelligent Navigation increases the business performance of your WordPress site using predictive analytics. It works by tracking which web page leads to the highest probability of conversion from the current page, and then recommends these high-probability page to your users. Payboard is working for some of the top websites on the planet (and many more that are on their way up). Plans range from $0/month for small sites to full-service offerings for high-traffic/high-value websites. 
+Payboard's Intelligent Navigation increases the business performance of your WordPress site using predictive analytics. It works by tracking which web page leads to the highest probability of conversion from the current page, and then recommends these high-probability pages to your users. Payboard is working for some of the top websites on the planet (and many more that are on their way up). Plans range from $0/month for small sites to full-service offerings for high-traffic/high-value websites. 
 
 == Installation ==
 
