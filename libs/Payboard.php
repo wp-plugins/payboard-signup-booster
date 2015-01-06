@@ -151,6 +151,10 @@
                 <!-- End Payboard Script -->
      <?php }
         }
+        
+        public static function includeJavascripts(){
+            wp_enqueue_script( 'jquery' );
+        }
  
     }
     

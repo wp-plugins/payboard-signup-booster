@@ -3,7 +3,7 @@
 Plugin Name: Payboard
 Description: Payboard Plugin
 Author: Payboard
-Version: 1.0
+Version: 2.0
 Author URI: http://www.payboard.com/
  */
 
